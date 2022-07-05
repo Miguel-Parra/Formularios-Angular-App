@@ -1,6 +1,6 @@
 <h2>Template</h2>
 <hr>
-<br>
+
 <ul class="list-group">
     <li class="list-group-item list-group-item-action" 
     *ngFor="let item of templateMenu" 
@@ -14,7 +14,6 @@
 
 <h2>Reactive</h2>
 <hr>
-<br>
 
 <ul class="list-group">
     <li class="list-group-item list-group-item-action" 
@@ -23,8 +22,8 @@
     routerLinkActive="active">
         {{item.texto}}
     </li>
-
 </ul>
+<br>
 
 <h2>Validaciones</h2>
 <hr>
@@ -36,5 +35,17 @@
          routerLinkActive="active">
          {{item.texto}} 
     </li>
+</ul>
+<br>
 
+<h2>Paises</h2>
+<hr>
+
+<ul class="list-group">
+    <li class="list-group-item list-group-item-action"
+         *ngFor="let item of paisesMenu"
+         [routerLink]="item.ruta"
+         routerLinkActive="active">
+         {{item.texto}} 
+    </li>
 </ul>
