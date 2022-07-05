@@ -52,12 +52,13 @@ A continuación, se presenta los temas aplicados en la elaboración de esta apli
 - Mensajes de error personalizados
 
 **Múltiples selectores anidados**
+- Propiedad valueChanges de los Controls
 - operadores de RxJS(switchMap, map y tap)
 - Observables (of)
 - Métodos de RxJS (combineLatest)
 
 **Tecnologías utilizadas:**
-- Propiedad valueChanges de los Controls
+
 - Angular
 - Bootstrap
 - JSON Server (backend)
