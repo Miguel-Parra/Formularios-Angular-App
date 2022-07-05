@@ -100,7 +100,7 @@ Fue utilizada en la sección Paises para demostrar el funcionamiento de los Sele
 
 La aplicación se encuentra desplegada en:
 
-https://formsapp-mp.netlify.app/auth/registro
+https://formsapp-mp.netlify.app/
 
 La funcionalidad de comprobar si el correo existe no funciona en el sitio debido a que se debe desplegar el backend. Si se desea observarla, deberá descargar y ejecutar el proyecto levantando el backend también. 
 
